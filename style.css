@@ -22,6 +22,9 @@
 
 img{
   width: 100%;
+  height: 75%;
+  object-fit: cover;
+  
 }
 
 body{
@@ -116,28 +119,32 @@ header{
 section{
  position: relative;
  display: flex;
- padding-bottom: 100px;
+ margin-top: 5%;
+ 
 }
 
 
 button{
+  position: relative;
   border: 0;
   font-size: 30px;
   font-family: 'poppins';
   font-weight: 500;
   padding-left: 15px;
-  padding-right: 15px;
+  padding-right: 65px;
   padding-top: 15px;
   padding-bottom: 15px;
   border-radius: 50px;
 }
 .btn{
+  position: relative;
   position: absolute;
   color: white;
   z-index: 10;
-  bottom:10%;
+  bottom:30%;
   left: 9%;
   padding-left: 30px;
+  padding-right: 65px;
   transition: 1s;
 }
 
@@ -159,7 +166,7 @@ button:hover{
   font-family: 'poppins';
   padding-left: 10%;
   position: absolute;
-  bottom: 35%;
+  bottom: 55%;
   width: 50%;
   color: white;
   transition: 2s;
@@ -173,7 +180,7 @@ button:hover{
   font-family: 'poppins';
   padding-left: 10%;
   position: absolute;
-  bottom: 25%;
+  bottom: 45%;
   width: 50%;
   color: white;
   transition: 3s;
@@ -184,6 +191,8 @@ a:hover{
   color: white;
   text-decoration: none;
 }
+
+
 
 a{
   color: var(--text-color)
@@ -196,20 +205,76 @@ a{
   max-width: 1500px;
   display: flex;
   justify-content: space-between;
- align-items:center;
- margin-left: auto;
- margin-right: auto;
- 
- 
-}
+  align-items:center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -8%;
+  }
 
 .heading h1{
   font-size: 30px;
   font-weight: 600;
-  
 }
 
 .heading span{
   color: var(--light-orange-color)
+}
 
+.categories-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(180px,auto));
+  gap: 1rem;
+  margin-left:5%;
+  margin-right :5%;
+  margin-top: 4%;
+  margin-bottom: 5%;
+}
+
+
+.categories-container .box{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.categories-container .box img{
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.categories-container .box h2{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.categories-container .box span{
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.categories-container .box .bx-1 {
+  width: 40px;
+  height: 40px;
+  background: #f75f1d;
+  color: #1a2428;
+  border-radius: 50px;
+  margin-top: 20px;
+  position: absolute;
+  bottom: -8%;
+}
+
+.bx{
+  width: 40px;
+  height: 40px;
+  background: #f75f1d;
+  color: #1a2428;
+  border-radius: 50px;
+  margin-top: 20px;
+  position: absolute;
+  top: -1%;
+  right: 8%;
 }
