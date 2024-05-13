@@ -343,9 +343,9 @@ a{
 
 .product-card {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(280px,auto));
-  gap:5rem;
-  margin-top: 2rem;
+  grid-template-columns: repeat(4,minmax(280px,auto));
+  gap:3rem;
+  margin-top: 1.5rem;
   margin-left: auto;
   margin-right: auto;
   
@@ -356,12 +356,14 @@ a{
   box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 15%);
   border-radius: 0.5rem;
   position: relative;
+  margin-bottom: 100px;
   
 
 }
 
 .card img {
-  width: 90%;
+  margin-bottom: 34px;
+  width: 100%;
   height: 50%;
   object-fit: contain;
   object-position: center;

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="demo.css">
+  <title>Document</title>
+</head>
+<body>
+  
+  <div class="card-slider">
+    <div class="card">
+      <!-- Notice that both the image and the product title are in the same link. This can massively reduce the number of redundant tabstops on a page with lots of products, creating a better UX for keyboard-only and screen reader users. -->
+      <a href="https://accessible360.com" target="_blank" class="main-link">
+        <h2 class="title">First product title</h2>
+  
+        <!-- This image has a descriptive alt attribute, so it helps to place it after the heading in the DOM. Flexbox is used to place it above the heading visually (see the CSS tab to see how). -->
+        <div class="image">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3609497/blanca-paloma-sanchez-500x500.jpg" alt="Small succulent with long, spikey leaves in a mug-like planter.">
+        </div>
+      </a>
+  
+      <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  
+      <!-- The badge is placed right next to prices so its read out by screen readers in a more logical way. -->
+      <div class="badge">Sale</div>
+  
+      <div class="price">
+        <span class="new-price">$4.49</span>
+        <span class="original-price">
+          <span class="sr-only">Originally:</span>
+          $10.00
+        </span>
+      </div>
+  
+      <!-- Star icons don't convey anything to screen readers on their own, so we need to provide screen-reader-only text with their meaning. -->
+      <div class="rating">
+        <span class="sr-only">Rating: 3 out of 5 stars</span>
+        <span class="fas fa-star" aria-hidden="true"></span>
+        <span class="fas fa-star" aria-hidden="true"></span>
+        <span class="fas fa-star" aria-hidden="true"></span>
+        <span class="far fa-star" aria-hidden="true"></span>
+        <span class="far fa-star" aria-hidden="true"></span>
+  
+        <a href="https://accessible360.com/#reviews" class="reviews-link">77 reviews</a>
+      </div>
+    </div>
+  
+    <div class="card">
+      <a href="https://accessible360.com" target="_blank" class="main-link">
+        <h2 class="title">Second product title</h2>
+  
+        <div class="image">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3609497/erol-ahmed-500x500.jpg" alt="Small succulent with long, spikey leaves in a mug-like planter.">
+        </div>
+      </a>
+  
+      <p class="description">Lorem ipsum dolor sit amet, consectetur.</p>
+  
+      <div class="price">
+        <span class="new-price">$19.99</span>
+      </div>
+  
+      <div class="rating">
+        <span class="sr-only">Rating: 4 out of 5 stars</span>
+        <span class="fas fa-star" aria-hidden="true"></span>
+        <span class="fas fa-star" aria-hidden="true"></span>
+        <span class="fas fa-star" aria-hidden="true"></span>
+        <span class="fas fa-star" aria-hidden="true"></span>
+        <span class="far fa-star" aria-hidden="true"></span>
+  
+        <a href="https://accessible360.com/#reviews" class="reviews-link">30 reviews</a>
+      </div>
+    </div>
+  
+    <div class="card">
+      <a href="https://accessible360.com" target="_blank" class="main-link">
+        <h2 class="title">Third product title</h2>
+  
+        <div class="image">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3609497/armando-castillejo-500x500.jpg" alt="Small succulent with long, spikey leaves in a mug-like planter.">
+        </div>
+      </a>
+  
+      <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  
+      <div class="badge">Sale</div>
+  
+      <div class="price">
+        <span class="new-price">$12.99</span>
+        <span class="original-price">
+          <span class="sr-only">Originally:</span>
+          $15.99
+        </span>
+      </div>
+  
+      <div class="rating">
+        <span class="sr-only">Rating: 2 out of 5 stars</span>
+        <span class="fas fa-star" aria-hidden="true"></span>
+        <span class="fas fa-star" aria-hidden="true"></span>
+        <span class="far fa-star" aria-hidden="true"></span>
+        <span class="far fa-star" aria-hidden="true"></span>
+        <span class="far fa-star" aria-hidden="true"></span>
+  
+        <a href="https://accessible360.com/#reviews" class="reviews-link">0 reviews</a>
+      </div>
+    </div>
+  
+    <div class="card">
+      <a href="https://accessible360.com" target="_blank" class="main-link">
+        <h2 class="title">Fourth product title</h2>
+  
+        <div class="image">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3609497/calle-macarone-500x500.jpg" alt="Small succulent with long, spikey leaves in a mug-like planter.">
+        </div>
+      </a>
+  
+      <p class="description">Lorem ipsum dolor sit amet, consectetur.</p>
+  
+      <div class="price">
+        <span class="new-price">$9.99</span>
+      </div>
+  
+      <div class="rating">
+        <span class="sr-only">Rating: 5 out of 5 stars</span>
+        <span class="fas fa-star" aria-hidden="true"></span>
+        <span class="fas fa-star" aria-hidden="true"></span>
+        <span class="fas fa-star" aria-hidden="true"></span>
+        <span class="fas fa-star" aria-hidden="true"></span>
+        <span class="fas fa-star" aria-hidden="true"></span>
+  
+        <a href="https://accessible360.com/#reviews" class="reviews-link">7 reviews</a>
+      </div>
+    </div>
+  
+    <div class="card">
+      <a href="https://accessible360.com" target="_blank" class="main-link">
+        <h2 class="title">Fifth Product title</h2>
+  
+        <div class="image">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3609497/galina-n-300x300.jpg" alt="Small succulent with long, spikey leaves in a mug-like planter.">
+        </div>
+      </a>
+  
+      <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  
+      <div class="price">
+        <span class="new-price">$0.99</span>
+      </div>
+  
+      <div class="rating">
+        <span class="sr-only">Rating: 5 out of 5 stars</span>
+        <span class="fas fa-star" aria-hidden="true"></span>
+        <span class="fas fa-star" aria-hidden="true"></span>
+        <span class="fas fa-star" aria-hidden="true"></span>
+        <span class="fas fa-star" aria-hidden="true"></span>
+        <span class="fas fa-star" aria-hidden="true"></span>
+  
+        <a href="https://accessible360.com/#reviews" class="reviews-link">9 reviews</a>
+      </div>
+    </div>
+  </div>
+  
+  <p class="note">Built with <a href="https://github.com/Accessible360/accessible-slick" target="_blank">accessible-slick</a>, a fully WCAG 2.0 / 2.1 compliant, drop-in replacement for Slick Slider!</p>
+
+  <script src="demo.js"></script>
+</body>
+</html>
