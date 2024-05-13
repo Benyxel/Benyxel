@@ -13,7 +13,7 @@
 
 :root{
   --green-color: #3cb815;
-  --light-green-color: #ff7e00;
+  --light-orange-color: #ff7e00;
   --orange-color: ;
   --light-orange-color: #f75f1d;
   --text-color: #1a2428;
@@ -204,7 +204,14 @@ a{
   text-decoration: none;
 }
 
-
+.products-head{
+  max-width: 1500px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4%;}
 
 .categories{
   max-width: 1500px;
@@ -224,7 +231,9 @@ a{
 
 .heading span{
   color: var(--light-orange-color)
+
 }
+/* categories css */
 
 .categories-container{
   display: grid;
@@ -310,5 +319,110 @@ a{
 .box5{
   background: #dadada;2222
 }
+.box6{
+  background: #b1000041;
+}
+.box7{
+  background: #8496fc9d;
+}
+.box8{
+  background: #595f0180;
+}
+.box9{
+  background: #eebc7a6e;
+}
+.box10{
+  background: #8d72728a;2222
+}
 
+/* product cards css  */
+.products{
+ margin-left: 5%;
+ margin-right: 5%;
+}
 
+.product-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(280px,auto));
+  gap:5rem;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.product-card .card{
+  padding: 30px;
+  box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 15%);
+  border-radius: 0.5rem;
+  position: relative;
+  
+
+}
+
+.card img {
+  width: 90%;
+  height: 50%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.card span{
+  font-weight: 500;
+  font-size: 18px;
+}
+.card h2{
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: var(--light-orange-color);
+}
+
+.card .price{
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--light-orange-color);
+  margin-top: 0.5rem;
+}
+
+.cart{
+  position: absolute;
+  right: 0PX;
+  bottom: 0;
+  
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+  background: var(--light-orange-color);
+  border-radius: 0.5rem 0 0.5rem 0;
+}
+.heart{
+  position: absolute;
+  top: 1rem;
+  right:1rem;
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+  
+  
+}
+
+.cart:hover{
+  background: var(--green-color) ;
+  transition: 0.1s all linear;
+}
+
+.discount{
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  background: var(--light-orange-color);
+  clip-path: polygon(100% 0%, 77% 50%, 100% 100%, 0 100%, 0% 50%, 1% 0);
+  
+}
+span.discount {
+  font-size: 20px;
+  color: #fff;
+  padding: 4px 18px;
+  padding-left: 3px;
+  
+}
