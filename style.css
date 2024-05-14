@@ -132,7 +132,7 @@ section{
 button{
   position: relative;
   border: 0;
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'poppins';
   font-weight: 500;
   padding-left: 15px;
@@ -151,6 +151,10 @@ button{
   padding-left: 30px;
   padding-right: 65px;
   transition: 1s;
+}
+
+.btn-3{
+  margin-top: 20%;
 }
 
 button:hover{
@@ -291,7 +295,7 @@ a{
   border-radius: 50px;
   margin-top: 20px;
   position: absolute;
-  top: -1%;
+  top: -6%;
   right: 8%;
 }
 .categories-container .box .bx-1:hover{
@@ -448,6 +452,27 @@ span.discount {
   
 }
 
+.portrait{
+  display: flex;
+  justify-content:space-between;
+  
+  align-items: center;
+  margin-bottom: 80px;
+  margin-left:20%;
+  margin-right: 20%;
+  
+}
+.portrait img{
+  width:100%;
+  height: 700px;
+  box-shadow: 29px 20px 1px var(--text-color);
+  border-radius: 0 50px 0 50px;
+  
+  transition: 6s all linear;
+
+
+}
+
 /* Testimonials */
 /* Reset default margin and padding */
 * {
@@ -475,11 +500,13 @@ span.discount {
   display:flex;
   justify-content: space-between;
   background: var(--light-orange-color);
+  box-shadow: 20px 20px 0px rgb(238, 224, 207);
   align-items: center;
   padding-left: 20%;
   padding-right: 20%;
   padding-top: 5%;
   padding-bottom: 5%;
+  border-radius: 1000px 0 1000px 0;
 }
 
 .testimonial-header{
@@ -502,7 +529,10 @@ span.discount {
   font-size: 0.9rem;
   color: #777;
 }
-
+.testimonial-card:hover{
+  transform: translate(20px);
+  transition: 0.5s all linear;
+}
 /* Add more styles as needed */
 
 /* Responsive adjustments */
