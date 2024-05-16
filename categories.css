@@ -36,6 +36,15 @@
 }
 
 
+.Ladies-Aisle-head{
+  max-width: 1500px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  margin-left: auto;
+  padding: 65px;
+  margin-right: auto;
+}
 
 
 .categories-container2 .box .bx-1:hover{
@@ -52,8 +61,8 @@
   background: #d3d3d3;
 }
 
-.box1{
-
+.cat-box{
+  background: #faedff
 }
  
 
