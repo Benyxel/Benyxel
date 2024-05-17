@@ -16,14 +16,41 @@
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  
+  border-radius: 10px;
 }
+/* top slide style */
+.categories-container-t{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(180px,auto));
+  
+  margin-left:5%;
+  margin-right :5%;
+  margin-top: 4%;
+  margin-bottom: 5%;
+}
+/* top slide style */
+.categories-container-t .box{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+/* top slide style */
+  .categories-container-t .box img{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    object-position: center;}
+
 
 .categories-container2 .box img{
   width: 100%;
   height: 250px;
   object-fit: contain;
   object-position: center;
+  
+  
 }
 
 .categories-container2 .box h2{
@@ -36,16 +63,22 @@
 }
 
 
-.Ladies-Aisle-head{
+.Aisle-head{
   max-width: 1500px;
   display: flex;
-  justify-content: space-between;
   align-items:center;
-  margin-left: auto;
-  padding: 65px;
-  margin-right: auto;
+  margin-left: 70px;
+  padding: 25px;
+  
 }
 
+.Aisle-head img{
+  width: 25%;
+  object-fit:cover;
+  height: 150px;
+  margin-right: 605px;
+  margin-left: 10px;
+}
 
 .categories-container2 .box .bx-1:hover{
   background: #ff7e00;
@@ -61,15 +94,20 @@
   background: #d3d3d3;
 }
 
+/* for ladies Aisle */
 .cat-box{
-  background: #faedff
+  
+  box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 15%);
+  background: #ffeded
 }
  
-
-
-
-
-
+/* for men aisle */
+.cat-box2{
+  
+  box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 15%);
+  background: #c7c6ff
+  
+}
 
 
 .slider-container{
