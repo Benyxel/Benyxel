@@ -35,4 +35,4 @@ function slide() {
   }
 }
 
-setInterval(slide, 5000); // Change slide every 3 seconds
+setInterval(slide, 3000); // Change slide every 3 seconds

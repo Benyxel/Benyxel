@@ -97,19 +97,19 @@
 /* for ladies Aisle */
 .cat-box{
   
-  box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 15%);
+  box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 8%);
   background: #ffeded
 }
  
 /* for men aisle */
 .cat-box2{
   
-  box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 15%);
+  box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 8%);
   background: #c7c6ff
 }
 /* for other aisle */
 .cat-box3{
-   box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 15%);
+   box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 8%);
   background: rgb(255, 228, 179);}
  
 
