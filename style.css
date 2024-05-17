@@ -614,4 +614,14 @@ footer {
   .btn-2{
     margin-right: 50px;
   }
+  .categories-container .box{
+    width: 100%;
+    height: 300px;
+    
+  }
+  .categories-container .box h2{
+    font-size: 20px;
+  }
+  .product-card .card{
+    5
 }
