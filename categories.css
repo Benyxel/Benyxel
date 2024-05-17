@@ -2,7 +2,7 @@
 .categories-container2{
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(180px,auto));
-  
+  gap: 0.3rem;
   margin-left:5%;
   margin-right :5%;
   margin-top: 4%;
@@ -106,9 +106,12 @@
   
   box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 15%);
   background: #c7c6ff
-  
 }
-
+/* for other aisle */
+.cat-box3{
+   box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 15%);
+  background: rgb(255, 228, 179);}
+ 
 
 .slider-container{
   width: 100%;
