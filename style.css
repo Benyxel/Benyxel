@@ -584,4 +584,34 @@ footer {
   text-decoration: none;
 }
 
-/* Add more styles as needed */
+/* Making responsive */
+@media(max-width:1080px){
+  header{
+    padding: 18px 60px;
+  }
+
+  .p-1{
+    padding: 0 100px;
+    font-size: px;
+    padding-bottom:  60px;
+    width: 1000px;
+  }
+  .p-2{
+    padding: 0 100px;
+    font-size: px;
+    padding-bottom:  60px;
+    width: 1000px;
+  }
+  .img-d{
+    right: 30px;
+  }
+  button{
+    margin-left: -40px;
+  }
+  .heading h1{
+    padding-left: 50px;
+  }
+  .btn-2{
+    margin-right: 50px;
+  }
+}
