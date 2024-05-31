@@ -1,0 +1,130 @@
+
+.categories-container2{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(180px,auto));
+  gap: 0.3rem;
+  margin-left:5%;
+  margin-right :5%;
+  margin-top: 4%;
+  margin-bottom: 5%;
+}
+
+
+.categories-container2 .box{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+/* top slide style */
+.categories-container-t{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(180px,auto));
+  
+  margin-left:5%;
+  margin-right :5%;
+  margin-top: 4%;
+  margin-bottom: 5%;
+}
+/* top slide style */
+.categories-container-t .box{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+/* top slide style */
+  .categories-container-t .box img{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    object-position: center;}
+
+
+.categories-container2 .box img{
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  object-position: center;
+  
+  
+}
+
+.categories-container2 .box h2{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.categories-container2 .box span{
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+
+.Aisle-head{
+  max-width: 1500px;
+  display: flex;
+  align-items:center;
+  margin-left: 70px;
+  padding: 25px;
+  
+}
+
+.Aisle-head img{
+  width: 25%;
+  object-fit:cover;
+  height: 150px;
+  margin-right: 605px;
+  margin-left: 10px;
+}
+
+.categories-container2 .box .bx-1:hover{
+  background: #ff7e00;
+  transition: 0.2s all linear;
+}
+
+.categories-container2 .box:hover .bx-1{
+  display: block;
+  transition: 0.2s all linear;
+}
+
+.box1-slide{
+  background: #d3d3d3;
+}
+
+/* for ladies Aisle */
+.cat-box{
+  
+  box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 8%);
+  background: #ffeded
+}
+ 
+/* for men aisle */
+.cat-box2{
+  
+  box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 8%);
+  background: #c7c6ff
+}
+/* for other aisle */
+.cat-box3{
+   box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 8%);
+  background: rgb(255, 228, 179);}
+ 
+
+.slider-container{
+  width: 100%;
+  overflow: hidden;
+  margin-top: 8%;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  flex: 0 0 auto;
+  width: 100%;
+}

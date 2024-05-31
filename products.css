@@ -1,0 +1,9 @@
+/* You can style the product page according to your design preferences */
+.product {
+  width: 300px;
+  margin-top: 40px;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
